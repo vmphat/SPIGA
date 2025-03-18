@@ -2,7 +2,8 @@ import os
 import numpy as np
 import json
 from collections import OrderedDict
-from scipy.integrate import simps
+# from scipy.integrate import simps
+from scipy.integrate import simpson as simps
 
 from spiga.data.loaders.dl_config import db_anns_path
 from spiga.eval.benchmark.metrics.metrics import Metrics

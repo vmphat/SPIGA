@@ -34,8 +34,8 @@ To run the video analyzer demo or evaluate the algorithm, install the repository
 #  2. Install Pytorch according to your CUDA version.
 #  3. Install SPIGA from source code:
 
-git clone https://github.com/andresprados/SPIGA.git
-cd spiga
+git clone https://github.com/vmphat/SPIGA.git
+cd SPIGA
 pip install -e .  
 
 # To run the video analyzer demo install the extra requirements.
